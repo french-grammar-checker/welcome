@@ -6,7 +6,7 @@ const motion=matchMedia('(prefers-reduced-motion: reduce)');
 let running=false,version=0;
 function play(enabled){
  running=enabled;
- image.src=enabled?`assets/demo-v3.gif?play=${++version}`:'assets/demo-v3-poster.png';
+ image.src=enabled?`assets/demo-v4.gif?play=${++version}`:'assets/demo-v4-poster.png';
  toggle.textContent=enabled?'Ⅱ':'▶';
  toggle.setAttribute('aria-label',enabled?'Stop demo':'Play demo');
  toggle.title=enabled?'Stop demo':'Play demo';
